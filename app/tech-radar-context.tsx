@@ -1,8 +1,8 @@
 "use client"
 
 import type React from "react"
-import { defaultItems } from "./data/data"
-import { Quadrant, TechItem } from "./data/types"
+import { defaultItems } from "../data/data"
+import { Quadrant, TechItem } from "../data/types"
 
 import { createContext, useContext, useState, useEffect } from "react"
 
@@ -166,4 +166,3 @@ export function useTechRadar() {
   }
   return context
 }
-
